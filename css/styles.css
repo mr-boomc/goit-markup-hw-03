@@ -20,6 +20,8 @@ ul {
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -49,10 +51,6 @@ body {
 }
 .link:hover, .link:focus {
     color: var(--hover-color);
-}
-.main-content{
-    padding: 120px 0;
-
 }
 
 
@@ -166,7 +164,14 @@ body {
 }
 
 /*------------------- features studio ---------------------*/
+
+
+.main-content {
+    padding: 120px 0;
+
+}
 .features {
+    padding-bottom: 120px;
 }
 .features-list {
     display: flex;
@@ -197,6 +202,7 @@ body {
 
 /*------------------- work studio ---------------------*/
 .work {
+    padding-bottom: 120px;
 }
 .work-title {
     font-weight: 700;
@@ -226,7 +232,7 @@ body {
     color: var(--color-navy-blue);
 }
 .team-content {
-    padding-top: 0px;
+    padding: 120px 0;
 }
 
 .team-title {
